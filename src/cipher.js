@@ -12,7 +12,7 @@ window.cipher = {
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     let caracterTexto = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
                     cifrado += String.fromCharCode(caracterTexto);
-                    alert("vamos lucy tu puedes");
+                    // alert("vamos lucy tu puedes");
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
                     caracterTexto = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
                     cifrado += String.fromCharCode(caracterTexto);
@@ -35,7 +35,7 @@ window.cipher = {
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     let caracterTexto = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
                     descifrado += String.fromCharCode(caracterTexto);
-                    alert("lucy lo estas logrando");
+                    // alert("lucy lo estas logrando");
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
                     let caracterTexto = ((string.charCodeAt(i) - 97 - parseInt(offset) + 52) % 26) + 97;
                     descifrado += String.fromCharCode(caracterTexto);

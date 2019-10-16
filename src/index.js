@@ -11,28 +11,28 @@
 // })
 
 document.getElementById("iniciar").addEventListener('click', ()=> {
-    alert("la hiciste")
+    // alert("la hiciste")
     document.getElementById('pag2').classList.remove('hide')
     document.getElementById('pag1').classList.add('hide')
 })
 
 
 document.getElementById("btnredacta").addEventListener('click', ()=> {
-    alert("hola")
+    // alert("hola")
     document.getElementById('pag3').classList.remove('hide');
     document.getElementById('pag2').classList.add('hide');
 })
 
 
 document.getElementById("btnrecibe").addEventListener('click', ()=> {
-    alert("bien hecho")
+    // alert("bien hecho")
     document.getElementById('pag4').classList.remove('hide')
     document.getElementById('pag2').classList.add('hide')
 })
 
 
 document.getElementById("offse1").addEventListener('click', ()=> {
-    alert("ya era hora")
+    // alert("ya era hora")
     document.getElementById("numOffset").classList.remove('hide')
     document.getElementById('msje').classList.add('none')
 })
@@ -56,5 +56,5 @@ botonDesencriptar.addEventListener("click", function() {
     let decodificar = document.getElementById("msjre").value;
     //textDecode = textDecode.toUpperCase();
     let number_offset = document.getElementById("numOffset1").value;
-    document.getElementById("desencriptado").innerHTML = window.cipher.decode(decodificar, number_offset);
+    document.getElementById("msjre1").innerHTML = window.cipher.decode(decodificar, number_offset);
 });

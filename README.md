@@ -9,6 +9,16 @@ de enviar ordenes y documentos de caracter confidencial o reservado debidamente 
 
 Luego que el programa ha sido probado los usuarios tendran la certeza de que sus mensajes o la informacion que se remita al destinatario llegara con la estricta reserva evitando cualquier intento boicotear dicha informacion logrando los propositos deseados.
 
-3- # UX (Prototipo en papel)
+ # UX (Prototipo en papel)
+ ![prototipo en papel !]("primer prototipo en papel")
+ ![prototipo en papel !](/imagenes/prototipo2.jpg "primer prototipo en papel")
+ ![prototipo en papel !](/LIM011-cipher/imagenes/prototipo1.jpg "primer prototipo en papel")
+ ![prototipo en papel !](/LIM011-cipher/imagenes/prototipo4.jpg "primer prototipo en papel")
 
-4- # Agregar un resumen del feedback recibido del prototipo en papel 
+ # Agregar un resumen del feedback recibido del prototipo en papel
+
+ - Mis compañeras hicieron feedback de mi proyecto en el cual no necesitaba muchas ventanas.
+ - deberia colocarle solo dos opciones para escoger,
+ - faltaba ponerle una opcion el cual me permita escoger cuantos lugares iba a correr el encriptado.
+ 
+

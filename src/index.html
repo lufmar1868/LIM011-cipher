@@ -43,6 +43,7 @@
                     <a href="#" id="codigo1" class="enlace1">codificar</a>
               </div>
               <label for="redacta" id="redac"><b>REDACTAR DOCUMENTO</b></label><br>
+              <input type="text" placeholder="Entidad al que va dirigido" name="entidad" id="dirigs">
               <input type="text" placeholder="para" name="par" id="para" >
               <!-- calendario -->
               <input type="date" name="calendario" id="date"><br>
@@ -59,6 +60,7 @@
                   <input type="button" value="CODIFIQUE SU MENSAJE" id="offse1" class="texto-white" >
                   <div id="msjeEncr" class="msj-aprob"></div>
                   <p id="msjeEncriptado"></p>
+                  <a href="mailto:cuenta@deemail.com"> enviar email </a>
                   <!-- <button id="btnEncriptar" class="botonCodificar"> codifique su mensaje</button> -->
               </div>
               <button onclick="location.reload();"class="btninicio">IR A INICIO</button>
@@ -69,7 +71,8 @@
               <label for="recibir" id="recibe"><b>MENSAJE RECIBIDO</b></label><br>
               <input type="text"placeholder="recibido de" name="de"><br>
               <!-- cuadro de texto a decodificar -->
-              <textarea name="recib" id="msjre" cols="50" rows="20"></textarea><br>
+              <textarea name="recib" id="msjre" cols="50" rows="20"></textarea>
+              <textarea name="recib" id="msjre1" cols="50" rows="20"></textarea><br>
               <!--- numero desplazamiento  -->
               <label class="label">INGRESE NUMERO DE DESPLAZAMIENTO</label>
               <input type="number" id="numOffset1" class="numOffeseStyle1"><br>
