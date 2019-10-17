@@ -23,7 +23,7 @@ Luego que el programa ha sido probado los usuarios tendran la certeza de que sus
  - faltaba ponerle una opcion el cual me permita escoger cuantos lugares iba a correr el encriptado.
  # IMAGEN DEL PROTOTIPO FINAL
  
-![prototipo final !](img/pf1.png)
+![prototipo final !](img/ppf.png)
 ![prototipo final !](img/pf2.png)
 ![prototipo final !](img/pf3.png)
 ![prototipo final !](img/pf4.png)
