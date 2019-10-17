@@ -14,7 +14,7 @@ window.cipher = {
                     cifrado += String.fromCharCode(caracterTexto);
                     // alert("vamos lucy tu puedes");
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                    caracterTexto = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
+                    const caracterTexto = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
                     cifrado += String.fromCharCode(caracterTexto);
                 }
               else {
