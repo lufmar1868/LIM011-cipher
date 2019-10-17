@@ -24,13 +24,13 @@ window.cipher = {
         return cifrado;
     },
     decode: (string, offset) => {
-        //mensaje recibido para desencriptar
+        // mensaje recibido para desencriptar
         let descifrado = "";
 
-        //inicio recorrido de caracteres
+        // inicio recorrido de caracteres
         for (let i = 0; i < string.length; i++) {
             let characterD = string[i];
-            //identificacion de espacios vacios
+            // identificacion de espacios vacios
             
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
                     let caracterTexto = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;
