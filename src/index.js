@@ -37,7 +37,6 @@ document.getElementById("offse1").addEventListener('click', ()=> {
     document.getElementById('msje').classList.add('none')
 })
 
-// eslint-disable-next-line no-undef
 codigo1.addEventListener("click",function(){
     document.getElementById("codigo1").classList.add("codigo1");
     document.getElementById("msjecodificado").classList.remove("display_none");
